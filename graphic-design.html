@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graphic Design | Jervens Cabanilla</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#projects">Unity Game Projects</a></li>
+      <li><a href="3d-projects.html">3D Projects</a></li>
+      <li><a href="graphic-design.html" class="nav-active">Graphic Design</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Graphic Design</h1>
+    <p>Logos, layouts, and apparel designs - Photoshop & Illustrator</p>
+  </header>
+
+  <!-- Gallery -->
+  <section id="graphic">
+    <h2>Design Work</h2>
+    <p>Including 20+ garment designs from my OJT. Click any image to view full size.</p>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="logo">Logo</button>
+      <button class="filter-btn" data-filter="artwork">Artwork</button>
+      <!-- <button class="filter-btn" data-filter="tarpaulin">Tarpaulin</button> -->
+      <button class="filter-btn" data-filter="brochure">Brochure</button>
+      <button class="filter-btn" data-filter="poster">Poster</button>
+      <!-- <button class="filter-btn" data-filter="game-cover">Game Cover</button> -->
+      <!-- <button class="filter-btn" data-filter="magazine">Magazine</button> -->
+      <button class="filter-btn" data-filter="banner">Banner</button>
+      <button class="filter-btn" data-filter="ojt">OJT Designs</button>
+    </div>
+
+    <div class="gallery-grid" id="graphic-grid">
+
+      <!-- Logo -->
+      <div class="gallery-item" data-category="logo">
+        <img src="images/graphic/logo-01.png" alt="Logo 1" loading="lazy" />
+        <div class="gallery-overlay"><span>Logo</span></div>
+      </div>
+      <div class="gallery-item" data-category="logo">
+        <img src="images/graphic/logo-02.png" alt="Logo 2" loading="lazy" />
+        <div class="gallery-overlay"><span>Logo</span></div>
+      </div>
+      <div class="gallery-item" data-category="logo">
+        <img src="images/graphic/logo-03.png" alt="Logo 2" loading="lazy" />
+        <div class="gallery-overlay"><span>Logo</span></div>
+      </div>
+      <div class="gallery-item" data-category="logo">
+        <img src="images/graphic/logo-04.png" alt="Logo 2" loading="lazy" />
+        <div class="gallery-overlay"><span>Logo</span></div>
+      </div>
+      <div class="gallery-item" data-category="logo">
+        <img src="images/graphic/logo-05.png" alt="Logo 2" loading="lazy" />
+        <div class="gallery-overlay"><span>Logo</span></div>
+      </div>
+
+      <!-- Artwork -->
+      <div class="gallery-item" data-category="artwork">
+        <img src="images/graphic/artwork-01.jpg" alt="Artwork" loading="lazy" />
+        <div class="gallery-overlay"><span>Artwork</span></div>
+      </div>
+
+      <!-- Tarpaulin -->
+      <!-- <div class="gallery-item" data-category="tarpaulin">
+        <img src="images/graphic/tarpaulin-01.png" alt="Tarpaulin" loading="lazy" />
+        <div class="gallery-overlay"><span>Tarpaulin</span></div>
+      </div> -->
+
+      <!-- Brochure -->
+      <div class="gallery-item" data-category="brochure">
+        <img src="images/graphic/brochure-01.jpg" alt="Brochure" loading="lazy" />
+        <div class="gallery-overlay"><span>Brochure</span></div>
+      </div>
+
+      <!-- Poster -->
+      <div class="gallery-item" data-category="poster">
+        <img src="images/graphic/poster-01.jpg" alt="Poster" loading="lazy" />
+        <div class="gallery-overlay"><span>Poster</span></div>
+      </div>
+
+      <!-- Poster -->
+      <div class="gallery-item" data-category="poster">
+        <img src="images/graphic/poster-02.jpg" alt="Poster" loading="lazy" />
+        <div class="gallery-overlay"><span>Poster</span></div>
+      </div>
+
+      <!-- Magazine -->
+      <!-- <div class="gallery-item" data-category="magazine">
+        <img src="images/graphic/magazine-01.png" alt="Magazine" loading="lazy" />
+        <div class="gallery-overlay"><span>Magazine</span></div>
+      </div> -->
+
+      <!-- Banner -->
+      <div class="gallery-item" data-category="banner">
+        <img src="images/graphic/banner-ojt-01.png" alt="OJT Banner" loading="lazy" />
+        <div class="gallery-overlay"><span>Banner</span></div>
+      </div>
+
+      <!-- OJT Designs — copy this block and increment the number for each additional design -->
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-01.jpeg" alt="OJT Design 1" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-02.jpeg" alt="OJT Design 2" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-03.png" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-04.jpeg" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-05.jpeg" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-06.jpeg" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-07.jpeg" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <div class="gallery-item" data-category="ojt">
+        <img src="images/graphic/ojt-08.jpeg" alt="OJT Design 3" loading="lazy" />
+        <div class="gallery-overlay"><span>OJT Design</span></div>
+      </div>
+      <!-- Copy the block above for ojt-04, ojt-05 ... up to however many you have -->
+
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lb-close">✕</button>
+      <img class="lightbox-img" id="lb-img" src="" alt="" />
+      <p class="lightbox-caption" id="lb-caption"></p>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Jervens Cabanilla</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
